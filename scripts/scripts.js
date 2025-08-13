@@ -33,5 +33,30 @@ for (let link of menuLinks) {
     // console.log(menuButton);
     //  // Append the new element to the topMenuEl element.
     topMenuEl.appendChild(menuButton);
-
 }
+
+//////////////////////////////////////////////////////////////////////////////
+//DOM PART TWO
+
+
+// // CREATING THE SUBMENU  
+//Select and cache the <nav id="sub-menu"> element in a variable named subMenuEl.
+let subMenuEl = document.getElementById(' <nav id="sub-menu">');
+
+//Set the height subMenuEl element to be "100%".
+subMenuEl.style.height = '100%';
+
+//Set the background color of subMenuEl to the value stored in the --sub-menu-bg CSS custom property.
+subMenuEl.style.backgroundColor = '--sub-menu-bg';
+
+//Add the class of flex-around to the subMenuEl element.//
+subMenuEl.classList.add('flex-around');
+
+// // 
+
+
+
+
+
+
+
